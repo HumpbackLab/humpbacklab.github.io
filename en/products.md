@@ -12,20 +12,12 @@ HumpbackLab is dedicated to providing innovative lightweight flight control solu
 
 The Android-ELRS Converter is a revolutionary smart hardware that instantly transforms your Android phone into a professional-grade RC transmitter. Say goodbye to bulky and expensive dedicated RC transmitters - with just an Android phone, you can experience low-latency, long-range professional RC control.
 
-### Hardware Interface
-
-![Hardware Interface](/manuals/Android-ELRS-manual/assets/2.png)
-
 ### Key Features
 
 - **Plug and Play** - Powers directly from phone's Type-C port, no external battery needed
 - **Industrial-Grade Communication** - Uses ExpressLRS (ELRS) open source protocol with ultra-high refresh rate and strong anti-interference
 - **Dual Control Modes** - Supports both virtual joystick and motion control
 - **Integrated Charging** - Built-in 1S battery charging system with 500mA constant current charging
-
-### LED Status
-
-![LED Status](/manuals/Android-ELRS-manual/assets/4.png)
 
 ### Technical Highlights
 
@@ -57,6 +49,13 @@ The Android-ELRS Converter is a revolutionary smart hardware that instantly tran
 ### Overview
 
 AT32F435mini is a ultra-compact flight controller optimized for INAV firmware, integrating AT32F435 MCU and ELRS wireless link, specifically designed for 1S powered lightweight aircraft, especially differential thrust wingless fixed-wing aircraft (such as paper airplane conversions).
+
+### Core Features
+
+- **Ultra-Compact** - PCB size only 30.2mm × 14.6mm, extremely lightweight
+- **Integrated Design** - Onboard ELRS receiver, no external modules needed
+- **Complete Sensors** - Integrated IMU, barometer, magnetometer for stable flight
+- **1S Optimized** - Power management solution designed for lightweight aircraft
 
 ### Hardware Specifications
 
