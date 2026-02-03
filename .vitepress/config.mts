@@ -15,8 +15,13 @@ export default defineConfig({
         logo: '/logo.png',
         nav: [
           { text: '首页', link: '/' },
-          { text: '产品介绍', link: '/products' },
-          { text: '用户手册', link: '/manuals' }
+          {
+            text: '产品',
+            items: [
+              { text: 'Android-ELRS 转换器', link: '/android-elrs' },
+              { text: 'AT32F435mini 飞控', link: '/at32f435mini' }
+            ]
+          }
         ],
         sidebar: [],
         socialLinks: [
@@ -36,8 +41,13 @@ export default defineConfig({
         logo: '/logo.png',
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Products', link: '/en/products' },
-          { text: 'Manuals', link: '/en/manuals' }
+          {
+            text: 'Products',
+            items: [
+              { text: 'Android-ELRS Converter', link: '/en/android-elrs' },
+              { text: 'AT32F435mini Flight Controller', link: '/en/at32f435mini' }
+            ]
+          }
         ],
         sidebar: [],
         socialLinks: [
