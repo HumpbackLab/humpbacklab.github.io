@@ -5,7 +5,8 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/' },
+      { text: '用户手册', link: '/manuals' }
     ],
     sidebar: [],
     socialLinks: [
