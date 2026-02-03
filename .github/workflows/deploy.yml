@@ -23,6 +23,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: recursive
+          token: ${{ secrets.MY_PAT }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
