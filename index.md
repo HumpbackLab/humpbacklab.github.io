@@ -23,3 +23,7 @@ features:
 ---
 
 <ProductCarousel />
+
+<CommunitySection />
+
+<TechStack />
