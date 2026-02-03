@@ -32,6 +32,15 @@ cd manuals/flight-controller-manual
 typst compile main.typ ../../public/manuals/flight-controller-manual.pdf
 cd ../..
 
+echo ""
+echo "创建 assets 软链接..."
+cd public/manuals
+ln -sf ../../manuals/Android-ELRS-manual/assets Android-ELRS-manual
+ln -sf ../../manuals/flight-controller-manual/assets flight-controller-manual
+cd ../..
+
+echo ""
 echo "手册编译完成！"
 echo "- Android-ELRS 手册: public/manuals/android-elrs-manual.pdf"
 echo "- 飞控手册: public/manuals/flight-controller-manual.pdf"
+echo "- Assets 软链接已创建"
