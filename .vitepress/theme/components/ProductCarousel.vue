@@ -1,32 +1,79 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { useData } from 'vitepress'
 
-const products = [
-  {
-    name: 'Android-ELRS 转换器',
-    description: '将安卓手机变成专业遥控器，支持虚拟摇杆和体感控制，即插即用，内置电池充电功能',
-    image: '/manuals/Android-ELRS-manual/assets/1.png',
-    link: '/products#android-elrs-转换器',
-    manual: '/manuals/android-elrs-manual.pdf'
+const { lang } = useData()
+
+const productsData = {
+  'zh-CN': {
+    title: '我们的产品',
+    products: [
+      {
+        name: 'Android-ELRS 转换器',
+        description: '将安卓手机变成专业遥控器，支持虚拟摇杆和体感控制，即插即用，内置电池充电功能',
+        image: '/manuals/Android-ELRS-manual/assets/1.png',
+        link: '/products#android-elrs-转换器',
+        manual: '/manuals/android-elrs-manual.pdf',
+        buttons: {
+          details: '了解详情',
+          manual: '下载手册'
+        }
+      },
+      {
+        name: 'AT32F435mini 飞控',
+        description: '1S 轻量级一体式飞控，集成 ELRS 接收机，适合差速固定翼和纸飞机改装',
+        image: '/manuals/flight-controller-manual/assets/product-overview.png',
+        link: '/products#at32f435mini-inav-飞控',
+        manual: '/manuals/flight-controller-manual.pdf',
+        buttons: {
+          details: '了解详情',
+          manual: '下载手册'
+        }
+      }
+    ]
   },
-  {
-    name: 'AT32F435mini 飞控',
-    description: '1S 轻量级一体式飞控，集成 ELRS 接收机，适合差速固定翼和纸飞机改装',
-    image: '/manuals/flight-controller-manual/assets/product-overview.png',
-    link: '/products#at32f435mini-inav-飞控',
-    manual: '/manuals/flight-controller-manual.pdf'
+  'en-US': {
+    title: 'Our Products',
+    products: [
+      {
+        name: 'Android-ELRS Converter',
+        description: 'Transform your Android phone into a professional RC transmitter with virtual joystick and motion control, plug and play, built-in battery charging',
+        image: '/manuals/Android-ELRS-manual/assets/1.png',
+        link: '/en/products#android-elrs-converter',
+        manual: '/manuals/android-elrs-manual.pdf',
+        buttons: {
+          details: 'Learn More',
+          manual: 'Download Manual'
+        }
+      },
+      {
+        name: 'AT32F435mini Flight Controller',
+        description: '1S lightweight integrated flight controller with ELRS receiver, suitable for differential thrust fixed-wing and paper airplane conversion',
+        image: '/manuals/flight-controller-manual/assets/product-overview.png',
+        link: '/en/products#at32f435mini-inav-flight-controller',
+        manual: '/manuals/flight-controller-manual.pdf',
+        buttons: {
+          details: 'Learn More',
+          manual: 'Download Manual'
+        }
+      }
+    ]
   }
-]
+}
+
+const currentData = computed(() => productsData[lang.value] || productsData['zh-CN'])
+const title = computed(() => currentData.value.title)
+const products = computed(() => currentData.value.products)
 
 const currentIndex = ref(0)
 let intervalId: number | null = null
 
 const nextSlide = () => {
-  currentIndex.value = (currentIndex.value + 1) % products.length
+  currentIndex.value = (currentIndex.value + 1) % products.value.length
 }
 
 const prevSlide = () => {
-  currentIndex.value = (currentIndex.value - 1 + products.length) % products.length
+  currentIndex.value = (currentIndex.value - 1 + products.value.length) % products.value.length
 }
 
 const goToSlide = (index: number) => {
@@ -44,7 +91,7 @@ onUnmounted(() => {
 
 <template>
   <div class="product-carousel">
-    <h2>我们的产品</h2>
+    <h2>{{ title }}</h2>
 
     <div class="carousel-container">
       <button class="carousel-btn prev" @click="prevSlide" aria-label="上一个">‹</button>
@@ -60,8 +107,8 @@ onUnmounted(() => {
                 <h3>{{ products[currentIndex].name }}</h3>
                 <p>{{ products[currentIndex].description }}</p>
                 <div class="product-actions">
-                  <a :href="products[currentIndex].link" class="btn-primary">了解详情</a>
-                  <a :href="products[currentIndex].manual" class="btn-secondary">下载手册</a>
+                  <a :href="products[currentIndex].link" class="btn-primary">{{ products[currentIndex].buttons.details }}</a>
+                  <a :href="products[currentIndex].manual" class="btn-secondary">{{ products[currentIndex].buttons.manual }}</a>
                 </div>
               </div>
             </div>
