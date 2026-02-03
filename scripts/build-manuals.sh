@@ -34,8 +34,10 @@ cd ../..
 
 echo ""
 echo "复制 assets 资源文件..."
-cp -r manuals/Android-ELRS-manual/assets public/manuals/Android-ELRS-manual
-cp -r manuals/flight-controller-manual/assets public/manuals/flight-controller-manual
+rm -rf public/manuals/Android-ELRS-manual public/manuals/flight-controller-manual
+mkdir -p public/manuals/Android-ELRS-manual public/manuals/flight-controller-manual
+cp -r manuals/Android-ELRS-manual/assets public/manuals/Android-ELRS-manual/
+cp -r manuals/flight-controller-manual/assets public/manuals/flight-controller-manual/
 
 echo ""
 echo "手册编译完成！"
