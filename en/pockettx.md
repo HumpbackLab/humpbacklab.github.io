@@ -1,12 +1,12 @@
-# Android-ELRS Converter
+# PocketTX
 
 **Lightweight RC Solution for Beginners**
 
-![Android-ELRS Product](/manuals/Android-ELRS-manual/assets/1.png)
+![PocketTX Product](/manuals/Android-ELRS-manual/assets/1.png)
 
 ## Overview
 
-The Android-ELRS Converter is an innovative hardware that transforms your Android phone into an RC transmitter. Compared to traditional dedicated RC transmitters, using a phone as a controller can lower the entry cost, making it suitable for beginners and lightweight flying.
+PocketTX is an innovative hardware that transforms your Android phone into an RC transmitter. Compared to traditional dedicated RC transmitters, using a phone as a controller can lower the entry cost, making it suitable for beginners and lightweight flying.
 
 ## Key Features
 

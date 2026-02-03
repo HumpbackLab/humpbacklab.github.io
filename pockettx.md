@@ -1,12 +1,12 @@
-# Android-ELRS 转换器
+# PocketTX
 
 **面向零基础用户的轻量级航模遥控解决方案**
 
-![Android-ELRS 产品外观](/manuals/Android-ELRS-manual/assets/1.png)
+![PocketTX 产品外观](/manuals/Android-ELRS-manual/assets/1.png)
 
 ## 产品概述
 
-Android-ELRS 转换器是一款创新的智能硬件，能够将您的 Android 手机转化为遥控发射机。相比传统的专用遥控器，使用手机作为遥控器可以降低入门成本，适合新手学习和轻量级飞行。
+PocketTX 是一款创新的智能硬件，能够将您的 Android 手机转化为遥控发射机。相比传统的专用遥控器，使用手机作为遥控器可以降低入门成本，适合新手学习和轻量级飞行。
 
 ## 核心特性
 

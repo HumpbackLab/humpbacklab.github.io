@@ -1,12 +1,12 @@
-# AT32F435mini INAV 飞控
+# LightFin
 
 **面向差速固定翼与轻量机型的 1S 一体式飞控解决方案**
 
-![AT32F435mini 产品外观](/manuals/flight-controller-manual/assets/product-overview.png)
+![LightFin 产品外观](/manuals/flight-controller-manual/assets/product-overview.png)
 
 ## 产品概述
 
-AT32F435mini 是一款为 INAV 固件设计的小型飞控，集成 AT32F435 主控与 ELRS 无线链路，适用于 1S 供电的轻量机型，特别是差速控制的无襟翼固定翼（如纸飞机改装）。
+LightFin 是一款为 INAV 固件设计的小型飞控，集成 AT32F435 主控与 ELRS 无线链路，适用于 1S 供电的轻量机型，特别是差速控制的无襟翼固定翼（如纸飞机改装）。
 
 ## 核心特性
 

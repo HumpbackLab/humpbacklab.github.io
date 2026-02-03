@@ -1,12 +1,12 @@
-# AT32F435mini INAV Flight Controller
+# LightFin
 
 **1S Integrated Flight Controller for Differential Thrust Fixed-Wing and Lightweight Aircraft**
 
-![AT32F435mini Product](/manuals/flight-controller-manual/assets/product-overview.png)
+![LightFin Product](/manuals/flight-controller-manual/assets/product-overview.png)
 
 ## Overview
 
-AT32F435mini is a compact flight controller designed for INAV firmware, integrating AT32F435 MCU and ELRS wireless link, suitable for 1S powered lightweight aircraft, especially differential thrust wingless fixed-wing aircraft (such as paper airplane conversions).
+LightFin is a compact flight controller designed for INAV firmware, integrating AT32F435 MCU and ELRS wireless link, suitable for 1S powered lightweight aircraft, especially differential thrust wingless fixed-wing aircraft (such as paper airplane conversions).
 
 ## Core Features
 
