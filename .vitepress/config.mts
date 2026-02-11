@@ -21,7 +21,8 @@ export default defineConfig({
               { text: 'PocketTX', link: '/pockettx' },
               { text: 'LightFin', link: '/lightfin' }
             ]
-          }
+          },
+          { text: 'AT32 WebISP', link: 'https://humpbacklab.github.io/AT32-WebISP/' }
         ],
         sidebar: [],
         socialLinks: [
@@ -47,7 +48,8 @@ export default defineConfig({
               { text: 'PocketTX', link: '/en/pockettx' },
               { text: 'LightFin', link: '/en/lightfin' }
             ]
-          }
+          },
+          { text: 'AT32 WebISP', link: 'https://humpbacklab.github.io/AT32-WebISP/' }
         ],
         sidebar: [],
         socialLinks: [
