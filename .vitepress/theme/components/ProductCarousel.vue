@@ -27,8 +27,10 @@ const productsData = {
         manual: '/manuals/flight-controller-manual.pdf',
         buttons: {
           details: '了解详情',
-          manual: '下载手册'
-        }
+          manual: '下载手册',
+          purchase: '购买产品'
+        },
+        purchaseLink: 'https://item.taobao.com/item.htm?abbucket=4&id=1022642594970&mi_id=0000CW6PQXmZ_uru_Zs7-dCcoGa0lZPy6qBhOfuQJg5fECc&ns=1&skuId=6033769700633&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22d867182280b024e96f8af1ded3eff79b%22%7D'
       }
     ]
   },
@@ -54,8 +56,10 @@ const productsData = {
         manual: '/manuals/flight-controller-manual.pdf',
         buttons: {
           details: 'Learn More',
-          manual: 'Download Manual'
-        }
+          manual: 'Download Manual',
+          purchase: 'Purchase'
+        },
+        purchaseLink: 'https://item.taobao.com/item.htm?abbucket=4&id=1022642594970&mi_id=0000CW6PQXmZ_uru_Zs7-dCcoGa0lZPy6qBhOfuQJg5fECc&ns=1&skuId=6033769700633&spm=a21n57.1.hoverItem.1&utparam=%7B%22aplus_abtest%22%3A%22d867182280b024e96f8af1ded3eff79b%22%7D'
       }
     ]
   }
@@ -109,6 +113,7 @@ onUnmounted(() => {
                 <div class="product-actions">
                   <a :href="products[currentIndex].link" class="btn-primary">{{ products[currentIndex].buttons.details }}</a>
                   <a :href="products[currentIndex].manual" class="btn-secondary">{{ products[currentIndex].buttons.manual }}</a>
+                  <a v-if="products[currentIndex].purchaseLink" :href="products[currentIndex].purchaseLink" class="btn-secondary" target="_blank">{{ products[currentIndex].buttons.purchase }}</a>
                 </div>
               </div>
             </div>
@@ -225,11 +230,6 @@ onUnmounted(() => {
 .btn-secondary {
   border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-1);
-}
-
-.btn-secondary:hover {
-  border-color: var(--vp-c-brand);
-  color: var(--vp-c-brand);
 }
 
 .carousel-btn {
