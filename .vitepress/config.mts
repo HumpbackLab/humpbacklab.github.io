@@ -9,7 +9,7 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      title: "座头鲸工作室",
+      title: "座头鲸实验室",
       description: "HumpbackLab",
       themeConfig: {
         logo: '/logo.png',
@@ -29,6 +29,7 @@ export default defineConfig({
           { icon: 'github', link: 'https://github.com/HumpbackLab' }
         ],
         footer: {
+          message: '<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备20002143号</a>',
           copyright: 'Copyright © 2026-present HumpbackLab'
         }
       }
@@ -56,6 +57,7 @@ export default defineConfig({
           { icon: 'github', link: 'https://github.com/HumpbackLab' }
         ],
         footer: {
+          message: '<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备20002143号</a>',
           copyright: 'Copyright © 2026-present HumpbackLab'
         }
       }

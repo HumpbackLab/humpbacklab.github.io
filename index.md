@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "座头鲸工作室"
+  name: "座头鲸实验室"
   text: "HumpbackLab"
   tagline: 轻量级航模飞行控制解决方案
 
