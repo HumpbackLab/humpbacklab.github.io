@@ -30,6 +30,7 @@ cd ../..
 echo "编译 AT32F435mini 飞控用户手册为 PDF..."
 cd manuals/flight-controller-manual
 typst compile main.typ ../../public/manuals/flight-controller-manual.pdf
+typst compile quick-tutorial.typ ../../public/manuals/quick-tutorial.pdf
 cd ../..
 
 echo ""
@@ -43,4 +44,5 @@ echo ""
 echo "手册编译完成！"
 echo "- Android-ELRS 手册: public/manuals/android-elrs-manual.pdf"
 echo "- 飞控手册: public/manuals/flight-controller-manual.pdf"
+echo "- 快速教程: public/manuals/quick-tutorial.pdf"
 echo "- Assets 资源文件已复制"
