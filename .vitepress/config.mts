@@ -22,6 +22,7 @@ export default defineConfig({
               { text: 'LightFin', link: '/lightfin' }
             ]
           },
+          { text: '开源项目与贡献', link: '/open-source' },
           { text: 'AT32 WebISP', link: 'https://humpbacklab.github.io/AT32-WebISP/' }
         ],
         sidebar: [],
@@ -50,6 +51,7 @@ export default defineConfig({
               { text: 'LightFin', link: '/en/lightfin' }
             ]
           },
+          { text: 'Open Source', link: '/en/open-source' },
           { text: 'AT32 WebISP', link: 'https://humpbacklab.github.io/AT32-WebISP/' }
         ],
         sidebar: [],
