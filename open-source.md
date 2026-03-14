@@ -16,6 +16,12 @@
 - **技术栈**: C, Embedded Systems
 - **简介**: 我们基于 INAV 开发和优化我们的飞行控制器固件，为轻量化航空模型提供稳定控制。
 
+### 3. Let's Fly
+- **项目描述**: 一款用于通过CRSF协议控制RC设备的安卓应用程序
+- **GitHub地址**: [https://github.com/HumpbackLab/LetsFly](https://github.com/HumpbackLab/LetsFly)
+- **技术栈**: Kotlin, Android, USB Serial Communication
+- **简介**: 提供直观的操纵杆控制、陀螺仪飞行控制和可配置的通道开关，支持USB OTG连接RC硬件，适用于移动设备作为遥控器的场景。
+
 ## 其他开源贡献
 
 ### [iNAV](https://github.com/iNavFlight/inav)

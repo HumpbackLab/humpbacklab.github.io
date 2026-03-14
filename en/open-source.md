@@ -16,6 +16,12 @@ Here are the open source projects maintained by HumpbackLab:
 - **Technology Stack**: C, Embedded Systems
 - **Introduction**: We develop and optimize our flight controller firmware based on INAV to provide stable control for lightweight aircraft models.
 
+### 3. Let's Fly
+- **Project Description**: An Android application for controlling RC devices using CRSF protocol
+- **GitHub**: [https://github.com/HumpbackLab/LetsFly](https://github.com/HumpbackLab/LetsFly)
+- **Technology Stack**: Kotlin, Android, USB Serial Communication
+- **Introduction**: Provides intuitive joystick controls, gyroscope-based flight control, and configurable channel switches. Supports USB OTG connection to RC hardware, suitable for mobile devices as remote controllers.
+
 ## Other Open Source Contributions
 
 ### [iNAV](https://github.com/iNavFlight/inav)
