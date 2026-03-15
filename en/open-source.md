@@ -36,6 +36,15 @@ Here are the open source projects maintained by HumpbackLab:
 - [Fix PWM issue of esp8266 device when duty is 0 (#2684)](https://github.com/ExpressLRS/ExpressLRS/commit/43b97c08ecde07dc40e59b410dffaf1683da859c)
 - [clear all form data before updating hardware setting (#2780)](https://github.com/ExpressLRS/ExpressLRS/commit/132ab0e14bf32dcb6451da2dc6362215f0f2b0cb)
 
+
+## Mechanical Design
+
+### A4 Paper Airplane Remote Control Mount
+- **Project Description**: A 3D-printed mount for converting A4 paper airplanes into remote-controlled aircraft
+- **Link**: [https://makerworld.com.cn/zh/models/2263294-a4zhi-yao-kong-zhi-fei-ji-ji-jia#profileId-2547856](https://makerworld.com.cn/zh/models/2263294-a4zhi-yao-kong-zhi-fei-ji-jia#profileId-2547856)
+- **Technology Stack**: 3D Printing, SolidWorks
+- **Introduction**: A lightweight 3D-printed mount specifically designed for A4 paper airplanes that can quickly convert a regular folded A4 paper airplane into a remote-controlled aircraft, supporting servo and small motor installation.
+
 ## Open Source Licenses
 
 All our open source projects follow appropriate open source licenses. Please refer to the LICENSE file in each project for details.

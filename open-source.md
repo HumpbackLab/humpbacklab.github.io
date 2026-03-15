@@ -37,6 +37,14 @@
 - [clear all form data before updating hardware setting (#2780)](https://github.com/ExpressLRS/ExpressLRS/commit/132ab0e14bf32dcb6451da2dc6362215f0f2b0cb)
 
 
+## 机械设计
+
+### A4纸遥控飞机支架
+- **项目描述**: 用于将A4纸飞机改装成遥控飞行器的3D打印支架
+- **链接**: [https://makerworld.com.cn/zh/models/2263294-a4zhi-yao-kong-zhi-fei-ji-ji-jia#profileId-2547856](https://makerworld.com.cn/zh/models/2263294-a4zhi-yao-kong-zhi-fei-ji-jia#profileId-2547856)
+- **技术栈**: 3D打印, SolidWorks
+- **简介**: 专为A4纸飞机设计的轻量化3D打印支架，可快速将普通A4纸折叠飞机转换为遥控飞行器，支持舵机和小型电机安装。
+
 ## 开源许可证
 
 我们所有的开源项目都遵循相应的开源许可证，详情请参阅各项目的 LICENSE 文件。
