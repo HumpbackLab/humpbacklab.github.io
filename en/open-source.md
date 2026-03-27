@@ -4,29 +4,37 @@
 
 Here are the open source projects maintained by HumpbackLab:
 
-### 1. AT32 WebISP
-- **Project Description**: Web-based ISP tool for AT32 microcontrollers
-- **GitHub**: [https://github.com/HumpbackLab/AT32-WebISP](https://github.com/HumpbackLab/AT32-WebISP)
-- **Technology Stack**: WebAssembly, JavaScript
-- **Introduction**: A browser-based programming tool for AT32 chips that enables firmware flashing using serial ports.
-
-### 2. INAV
+### 1. INAV
 - **Project Description**: Flight controller firmware for inertial navigation and autonomous flight
 - **GitHub**: [https://github.com/HumpbackLab/inav](https://github.com/HumpbackLab/inav)
 - **Technology Stack**: C, Embedded Systems
 - **Introduction**: We develop and optimize our flight controller firmware based on INAV to provide stable control for lightweight aircraft models.
 
-### 3. Let's Fly
+### 2. Let's Fly
 - **Project Description**: An Android application for controlling RC devices using CRSF protocol
 - **GitHub**: [https://github.com/HumpbackLab/LetsFly](https://github.com/HumpbackLab/LetsFly)
 - **Technology Stack**: Kotlin, Android, USB Serial Communication
 - **Introduction**: Provides intuitive joystick controls, gyroscope-based flight control, and configurable channel switches. Supports USB OTG connection to RC hardware, suitable for mobile devices as remote controllers.
+
+### 3. AT32 WebISP
+- **Project Description**: Web-based ISP tool for AT32 microcontrollers
+- **GitHub**: [https://github.com/HumpbackLab/AT32-WebISP](https://github.com/HumpbackLab/AT32-WebISP)
+- **Technology Stack**: WebAssembly, JavaScript
+- **Introduction**: A browser-based programming tool for AT32 chips that enables firmware flashing using serial ports.
+
+### 4. morb
+- **Project Description**: A lightweight in-process publish/subscribe library for Rust
+- **GitHub**: [https://github.com/HumpbackLab/morb](https://github.com/HumpbackLab/morb)
+- **Technology Stack**: Rust, mio, eventfd, Linux
+- **Introduction**: Provides named topics, a fixed-size ring buffer, and poll-based notifications for efficient in-process message distribution on Linux, inspired by PX4's uORB design.
 
 ## Other Open Source Contributions
 
 ### [iNAV](https://github.com/iNavFlight/inav)
 - [Fix hard faults when handling large MSP responses over CRSF
 ](https://github.com/iNavFlight/inav/pull/11369)
+- [fix lsm6dxx driver lack gyroAlign setting issue.
+](https://github.com/iNavFlight/inav/pull/11367)
 
 ### [PX4](https://github.com/PX4/PX4-Autopilot)
 - [Add SPL06 barometer driver](https://github.com/PX4/PX4-Autopilot/pull/19229)

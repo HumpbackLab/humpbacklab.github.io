@@ -4,29 +4,39 @@
 
 以下是座头鲸实验室维护的开源项目：
 
-### 1. AT32 WebISP
-- **项目描述**: 基于网页的 AT32 微控制器编程工具
-- **GitHub地址**: [https://github.com/HumpbackLab/AT32-WebISP](https://github.com/HumpbackLab/AT32-WebISP)
-- **技术栈**: WebAssembly, JavaScript
-- **简介**: 一个基于浏览器的 AT32 芯片编程工具，使用串口进行程序烧录
-
-### 2. INAV
+### 1. INAV
 - **项目描述**: 面向惯性导航和自动驾驶的飞行控制器固件
 - **GitHub地址**: [https://github.com/HumpbackLab/inav](https://github.com/HumpbackLab/inav)
 - **技术栈**: C, Embedded Systems
 - **简介**: 我们基于 INAV 开发和优化我们的飞行控制器固件，为轻量化航空模型提供稳定控制。
 
-### 3. Let's Fly
+### 2. Let's Fly
 - **项目描述**: 一款用于通过CRSF协议控制RC设备的安卓应用程序
 - **GitHub地址**: [https://github.com/HumpbackLab/LetsFly](https://github.com/HumpbackLab/LetsFly)
 - **技术栈**: Kotlin, Android, USB Serial Communication
 - **简介**: 提供直观的操纵杆控制、陀螺仪飞行控制和可配置的通道开关，支持USB OTG连接RC硬件，适用于移动设备作为遥控器的场景。
+
+### 3. AT32 WebISP
+- **项目描述**: 基于网页的 AT32 微控制器编程工具
+- **GitHub地址**: [https://github.com/HumpbackLab/AT32-WebISP](https://github.com/HumpbackLab/AT32-WebISP)
+- **技术栈**: WebAssembly, JavaScript
+- **简介**: 一个基于浏览器的 AT32 芯片编程工具，使用串口进行程序烧录
+
+### 4. morb
+- **项目描述**: 面向 Rust 的轻量级进程内发布/订阅库
+- **GitHub地址**: [https://github.com/HumpbackLab/morb](https://github.com/HumpbackLab/morb)
+- **技术栈**: Rust, mio, eventfd, Linux
+- **简介**: 提供具名 Topic、固定大小环形缓冲区以及基于轮询的通知机制，适用于 Linux 环境下的高效进程内消息分发，设计灵感来自 PX4 的 uORB。
+
+
 
 ## 其他开源贡献
 
 ### [iNAV](https://github.com/iNavFlight/inav)
 - [Fix hard faults when handling large MSP responses over CRSF
 ](https://github.com/iNavFlight/inav/pull/11369)
+- [fix lsm6dxx driver lack gyroAlign setting issue.
+](https://github.com/iNavFlight/inav/pull/11367)
 
 ### [PX4](https://github.com/PX4/PX4-Autopilot)
 - [Add SPL06 barometer driver](https://github.com/PX4/PX4-Autopilot/pull/19229)
