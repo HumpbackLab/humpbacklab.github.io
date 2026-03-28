@@ -28,6 +28,12 @@ Here are the open source projects maintained by HumpbackLab:
 - **Technology Stack**: Rust, mio, eventfd, Linux
 - **Introduction**: Provides named topics, a fixed-size ring buffer, and poll-based notifications for efficient in-process message distribution on Linux, inspired by PX4's uORB design.
 
+### 5. pymsp
+- **Project Description**: A Python library for handling MSP (MultiWii Serial Protocol) messages
+- **GitHub**: [https://github.com/HumpbackLab/pymsp](https://github.com/HumpbackLab/pymsp)
+- **Technology Stack**: Python, MSP, Serial Protocol
+- **Introduction**: Supports packing, unpacking, and streaming processing for both MSP v1 and MSP v2 messages, suitable for flight controller protocol debugging, data parsing, and ground-station tool development.
+
 ## Other Open Source Contributions
 
 ### [iNAV](https://github.com/iNavFlight/inav)

@@ -28,6 +28,12 @@
 - **技术栈**: Rust, mio, eventfd, Linux
 - **简介**: 提供具名 Topic、固定大小环形缓冲区以及基于轮询的通知机制，适用于 Linux 环境下的高效进程内消息分发，设计灵感来自 PX4 的 uORB。
 
+### 5. pymsp
+- **项目描述**: 用于处理 MSP（MultiWii Serial Protocol）消息的 Python 库
+- **GitHub地址**: [https://github.com/HumpbackLab/pymsp](https://github.com/HumpbackLab/pymsp)
+- **技术栈**: Python, MSP, Serial Protocol
+- **简介**: 支持 MSP v1 和 MSP v2 消息的打包、解包与流式处理，适用于飞控协议调试、数据解析以及上位机工具开发。
+
 
 
 ## 其他开源贡献
