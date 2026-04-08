@@ -43,6 +43,10 @@ PocketTX is an innovative hardware that transforms your Android phone into an RC
   ></iframe>
 </div>
 
+## Purchase
+
+- [Buy on Taobao](https://item.taobao.com/item.htm?id=1039823241890&mi_id=0000S0iASD3hDlXoEibe9Xoci5mr8bT-oJx-tFanvu-2MII&spm=a21xtw.29178619.0.0&xxc=shop)
+
 ## Technical Support
 
 For more technical support or product inquiries, please contact us through:

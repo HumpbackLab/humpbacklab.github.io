@@ -16,8 +16,10 @@ const productsData = {
         manual: '/manuals/android-elrs-manual.pdf',
         buttons: {
           details: '了解详情',
-          manual: '下载手册'
-        }
+          manual: '下载手册',
+          purchase: '购买产品'
+        },
+        purchaseLink: 'https://item.taobao.com/item.htm?id=1039823241890&mi_id=0000S0iASD3hDlXoEibe9Xoci5mr8bT-oJx-tFanvu-2MII&spm=a21xtw.29178619.0.0&xxc=shop'
       },
       {
         name: 'LightFin',
@@ -45,8 +47,10 @@ const productsData = {
         manual: '/manuals/android-elrs-manual.pdf',
         buttons: {
           details: 'Learn More',
-          manual: 'Download Manual'
-        }
+          manual: 'Download Manual',
+          purchase: 'Purchase'
+        },
+        purchaseLink: 'https://item.taobao.com/item.htm?id=1039823241890&mi_id=0000S0iASD3hDlXoEibe9Xoci5mr8bT-oJx-tFanvu-2MII&spm=a21xtw.29178619.0.0&xxc=shop'
       },
       {
         name: 'LightFin',
