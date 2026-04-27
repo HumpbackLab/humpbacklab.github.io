@@ -15,6 +15,7 @@ export default defineConfig({
         logo: '/logo.png',
         nav: [
           { text: '首页', link: '/' },
+          { text: '航模/无人机入门', link: '/rc-beginners/' },
           {
             text: '产品',
             items: [
@@ -44,6 +45,7 @@ export default defineConfig({
         logo: '/logo.png',
         nav: [
           { text: 'Home', link: '/en/' },
+          { text: 'RC/UAV Basics', link: '/rc-beginners/' },
           {
             text: 'Products',
             items: [

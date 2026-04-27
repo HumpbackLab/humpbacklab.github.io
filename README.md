@@ -13,6 +13,8 @@
 │   └── build-manuals.sh       # 编译手册为 PDF
 ├── public/                     # 静态资源 (构建后生成)
 │   └── manuals/               # 编译后的 PDF 文件
+├── articles/                  # 文章目录 (Markdown)
+│   └── en/                    # English articles
 ├── .vitepress/                # VitePress 配置
 └── *.md                       # Markdown 页面
 
@@ -95,6 +97,13 @@ npm run preview
 - `manuals/flight-controller-manual/main.typ` - 飞控用户手册
 
 运行 `npm run build:manuals` 会将这些文件编译为 PDF 并放置到 `public/manuals/` 目录。
+
+## 文章发布
+
+- 中文文章放在 `articles/`
+- 英文文章放在 `articles/en/`
+- 建议在文章 frontmatter 中填写 `title`、`date`、`description`
+- `articles/index.md` 和 `articles/en/index.md` 会自动生成文章列表，无需手动维护索引
 
 ## 更新手册
 

@@ -1,1 +1,152 @@
 /* 全局自定义样式 */
+
+:root {
+  --rc-accent: var(--vp-c-brand-1);
+  --rc-border: var(--vp-c-divider);
+  --rc-card-bg: var(--vp-c-bg-soft);
+  --rc-hero-bg: var(--vp-c-bg-soft);
+}
+
+.rc-series-page {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.rc-series-hero {
+  padding: 28px 24px;
+  border: 1px solid var(--rc-border);
+  border-radius: 16px;
+  background: var(--rc-hero-bg);
+}
+
+.rc-series-kicker {
+  margin: 0 0 8px;
+  color: var(--rc-accent);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.rc-series-hero h1 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.15;
+}
+
+.rc-series-lead {
+  max-width: 720px;
+  margin: 14px 0 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+}
+
+.rc-series-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 0;
+}
+
+.rc-series-meta-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  min-height: 32px;
+  border: 1px solid var(--rc-border);
+  border-radius: 999px;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: nowrap;
+  background: var(--vp-c-bg);
+}
+
+.rc-series-intro,
+.rc-series-list {
+  margin-top: 24px;
+}
+
+.rc-series-intro h2,
+.rc-series-list-head h2 {
+  margin-bottom: 8px;
+}
+
+.rc-series-intro p,
+.rc-series-list-head p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.75;
+}
+
+.rc-series-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.rc-series-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid var(--rc-border);
+  border-radius: 14px;
+  background: var(--rc-card-bg);
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.rc-series-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
+}
+
+.rc-series-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.rc-series-index {
+  color: var(--rc-accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.rc-series-arrow {
+  color: var(--vp-c-text-3);
+  font-size: 16px;
+}
+
+.rc-series-card h3 {
+  margin: 12px 0 8px;
+  color: var(--vp-c-text-1);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.rc-series-card p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .rc-series-hero {
+    padding: 24px 18px;
+    border-radius: 16px;
+  }
+
+  .rc-series-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rc-series-card h3 {
+    font-size: 18px;
+  }
+}
